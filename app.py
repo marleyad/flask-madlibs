@@ -9,7 +9,7 @@ debug = DebugToolbarExtension(app)
 
 @app.route("/")
 def ask_questions():
-    """Start by getting information from the User:"""
+    """ Start by getting information from the User:"""
 
     prompts = story.prompts
 
